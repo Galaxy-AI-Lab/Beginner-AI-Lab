@@ -36,11 +36,13 @@ Token 是 AI 理解文字的最小单位。比如：
 - "我爱你"这句话可能被分成"我"、"爱"、"你"三个 token
 - 英文 "I love you" 可能被分成 "I"、"love"、"you" 三个 token
 
-实用小知识：
+Token 的作用如下：
 
-- 1 个中文字约等于 2 个 token
-- 1 个英文单词约等于 1-2 个 token
-- token 数量会影响 API 调用成本
+- Token 可以用来计算文本长度
+- Token 可以帮助 AI 理解文本的语义
+- Token 是构建语言模型的基础
+
+不同的模型对 token 的处理方式不同，我们可以在 [Tiktokenizer](https://tiktokenizer.vercel.app/) 网站上查看文本的 token 分割情况。
 
 ## Fine-tuning（微调）
 
