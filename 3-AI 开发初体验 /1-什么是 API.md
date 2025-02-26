@@ -34,6 +34,7 @@ API（应用程序编程接口）是一种软件中间件，它定义了不同�
 ### 2. 实际示例
 
 假设我们要使用 OpenAI 的 API：
+[openai api 参考](https://platform.openai.com/docs/api-reference/chat)
 
 ```python
 from openai import OpenAI
